@@ -1,23 +1,56 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- css inclusions. -->
+    <link rel='stylesheet' href='css/main.css' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat' type='text/css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Sans' type='text/css'>
+    <meta name="google-site-verification" content="bStnDdxWK7iCGz7PNTE8m68lxx54yNvb21GUdr4a2nI" />
+    <!-- font link. -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <!-- favicon link. -->
+    <link rel='icon' href='img/favicon.png' />
+    <!-- client-side javascript. -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <title> Mike Wu | About</title>
+  </head>
+  <body>
+    <header>
+      <div class="navwrapper">
+        <a href="index.html" class="name">Mike Wu</a>
+        <nav role="navigation">
+          <ul>
+            <li><a href="index.html" class="active">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="doodles.html">Doodles</a></li>
+            <li><a href="v4-resume.pdf">CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<div class="home">
+    <section class="text">
+      <p><img src="img/index_img.png" alt="Portrait of Mike Wu" class="fullimg avatar"></p>
+      <p class="intro">Hi! I'm Mike Wu, a machine learning enthusiast, researcher, entrepreneur, and artist.</p>
+      <p>I'm a soon-to-be Ph.D. student in computer science studying Bayesian nonparametrics, neural networks, and time-series predictions. Before that, I was a student at Yale where I strived to encourage computer science on campus. I cofounded YHack, Yale's annual 1500 person international hackathon; supported CodeBlue, a coding bootcamp for New Haven high school students; and served as a teaching assistant for  classes in both the management and computer science schools.</p>
+      <p>I've jumped around a lot from field to field. Along the way, I've worked as a data scientist at <a href="http://www.ionispharma.com/">Ionis Pharma</a>; researched at Yale, Harvard, and Oxford; and cofounded <a href="http://invrea.com/">Invrea</a>, a probabilistic programming language built directly in Microsoft Excel.</p>
+      <p><b>I would love to meet you!</b> You can catch me best by <a href="mailto:me@mikewuis.me">email</a>.</p>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
+    <footer>
+      <section class="footersection">
+        <div class="title">
+          <h2>Get in touch.</h2>
+          Reach out for anything to everything.
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="copyline">
+          Copyright &copy; 2016 Mike Wu | <a href="mailto:me@mikewuis.me">me@mikewuis.me</a> | Github (<a href="http://github.com/mhw32">@mhw32</a>) | Medium (<a href="#">@grubiroth</a>)
+        </div>
+      </section>
+    </footer>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  </body>
+</html>
