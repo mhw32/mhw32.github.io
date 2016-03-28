@@ -110,6 +110,13 @@ p.intro {
   font-weight: 300;
 }
 
+p.intro-title {
+  text-align: center;
+  font-family: "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
 /* FOOTER STYLING */
 footer {
   margin-top: 0;
@@ -158,4 +165,8 @@ footer a {
 
 .doodle p {
   font-weight: bold
+}
+
+table.preprints {
+  border-spacing:0 2em;
 }
