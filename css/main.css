@@ -157,11 +157,6 @@ footer a {
   text-align: center;
 }
 
-.doodle {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .doodle img {
   width: 100%;
   max-width: 400px;
@@ -174,6 +169,11 @@ footer a {
 
 .description {
   font-weight: normal !important;
+}
+
+.doodle {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 table.preprints {
