@@ -50,31 +50,47 @@
         <tbody>
           <tr>
             <td valign="top">
-              <img src="img/mimic.png" alt="link to pdf" width="130px" border="0px">
+              <img src="img/interpret.png" alt="link to pdf" width="130px" border="0px">
             </td>
             <td valign="top">
-              <b>Discrete Switching-State Systems for Intervention and Outcome Predictions: Understanding Vasopressor Administration and Weaning in the ICU</b>
+              <b>Increasing the Interpretability of Recurrent Neural Networks Using Hidden Markov Models</b>
               <p>
-              Vasopressor administration is common for controlling
-              hypotension in intensive care units (ICUs), and changes
-              in timing and dosage can have a large impact on patient
-              outcomes. In this work, we use a switching-state autogressive
-              model (SSAM) to model the multidimensional
-              physiological timeseries of patients before, during, and
-              after vasopressor administration. Using features derived
-              from this SSAM, we achieve state-of-the-art results in
-              predicting whether a patient will be administered a vasopressor,
-              and the same features can be used to predict
-              when a patient can be successfully weaned from the intervention.
+                As deep neural networks continue to revolutionize various application domains, there is increasing
+                interest in making these powerful models more understandable and interpretable, and narrowing down
+                the causes of good and bad predictions. We focus on recurrent neural networks (RNNs), state of the art
+                models in speech recognition and translation. Our approach to increasing interpretability is by combining
+                an RNN with a hidden Markov model (HMM), a simpler and more transparent model. This combined
+                model can have an RNN component with fewer layers and states than a standalone RNN, making it easier
+                to interpret individual states. We explore various combinations of RNNs and HMMs, such as a hybrid
+                model where an HMM is trained first, then a small LSTM is given HMM state distributions and trained
+                to fill in gaps in the HMM’s performance. We also use HMMs to model the overall dynamics of LSTM
+                states.
               </p>
-                <a href="#">Maryzeh Ghassemi</a>, 
-                <a href="#">Mike Wu</a>, 
-                <a href="#">Mengling Feng</a>,
-                <a href="#">Leo Anthony Celi</a>,
-                <a href="#">Peter Szolovits</a>,
-                <a href="#">Finale Doshi-Velez</a>
+                <a href="#">Mike Wu</a>,
+                <a href="#">Viktoriya Krakovna</a>,
+                <a href="#">Michael C. Hughes</a>,
+                <a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>
               <br>
-              <em>Preparing for submission</em>, 2016<br>
+              <em>Work In Progress</em>, 2016<br>
+                <a href="https://github.com/dtak/interpretable-models">code</a>
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <img src="img/mimic3.png" alt="link to pdf" width="130px" border="0px">
+            </td>
+            <td valign="top">
+              <b>Predicting intervention onset in the ICU with switching statespace models</b>
+              <p>
+              The impact of many common intensive care unit interventions have not fully quantified, especially in heteroge- nous patient populations. We train unsupervised switching state autoregressive models on vital signs from the public MIMIC-III database to capture patient movement between physiological states. We compare our learnt belief states to static demographics and raw vital signs in the prediction of five ICU treatments: ventilation, vasopressor adminis- tration, and three transfusions. While custom classifiers can only target one specific clinical event, our model learns physiological states which can help with many interventions. Our learning of robust patient state representations presents an exciting path towards future evidence-driven adminsitration of key clinical interventions.
+              </p>
+                <a href="http://mghassem.mit.edu/">Maryzeh Ghassemi</a>,
+                <a href="#">Mike Wu</a>,
+                <a href="#">Michael C. Hughes</a>,
+                <a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>
+              <br>
+              <em>Submitted to American Medical Informatics Association</em>, 2016<br>
                 <a href="mimicpaper.pdf" target="_blank">preprint</a>
                 | <a href="https://github.com/dtak/mimic-tools">code</a>
               <br>
@@ -96,7 +112,7 @@
                 <a href="#">Mark Lovell</a>,
                 <a href="#">Wojciech Hellwing</a>
               <br>
-              <em>Preparing for submission</em>, 2016<br>
+              <em>Submitted to Journal of Computational and Graphical Statistics</em>, 2016<br>
                 <a href="astropaper.pdf" target="_blank">preprint</a>
                 | <a href="https://github.com/mhw32/Persistent-Homology">code</a>
               <br>
@@ -110,6 +126,28 @@
       <p class="intro-title">Research Archive</p>
       <table border="0" cellspacing="4" cellpadding="2" class="preprints">
         <tbody>
+          <tr>
+            <td valign="top">
+              <img src="img/mimic.png" alt="link to pdf" width="130px" border="0px">
+            </td>
+            <td valign="top">
+              <b>Understanding vasopressor intervention and weaning: Risk prediction in a public heterogeneous clinical time series database</b>
+              <p>
+              The widespread adoption of electronic health records allows us to ask evidence-based questions about the need for and benefits of specific clinical interventions in critical-care settings across large populations. We investigated the prediction of vasopressor administration and weaning in the intensive care unit. Vasopressors are commonly used to control hypotension, and changes in timing and dosage can have a large impact on patient outcomes. We considered a cohort of 15 695 intensive care unit patients without orders for reduced care who were alive 30 days post-discharge. A switching-state autoregressive model (SSAM) was trained to predict the multidimensional physiological time series of patients before, during, and after vasopressor administration. The latent states from the SSAM were used as predictors of vasopressor administration and weaning.
+              </p>
+                <a href="#">Mike Wu</a>,
+                <a href="http://mghassem.mit.edu/">Maryzeh Ghassemi</a>,
+                <a href="#">Mengling Feng</a>,
+                <a href="#">Leo Anthony Celi</a>,
+                <a href="https://www.csail.mit.edu/user/1513">Peter Szolovits</a>,
+                <a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>
+              <br>
+              <em>Journal of the American Medical Informatics Association</em>, 2016<br>
+                <a href="http://jamia.oxfordjournals.org/content/early/2016/10/04/jamia.ocw138.abstract" target="_blank">journal</a>
+                | <a href="https://github.com/dtak/mimic-tools">code</a>
+              <br>
+            </td>
+          </tr>
           <tr>
             <td valign="top">
               <img src="img/spreadsheet.png" alt="link to pdf" width="130px" border="0px">
@@ -178,7 +216,7 @@
               <p>
               This paper describes the design of a crowd-based facial detection and recognition system using only optical features, allowing for robustness in tracking characterizations with applications in security and data extraction. Implementation is divided into three parts: packing information regarding a given image into edge pixels, segmentation into object groups, and circular segmentation. Detection is achieved by filtering the circles and characterizing those with features similar to that of a normal face. Preliminary facial recognition is described by matching feature vectors to each facial region and matching over subsequence image frames. Algorithms were implemented in MATLAB and testing was performed with a low-resolution video camera. Through a number of trials, results show good detection and tracking abilities given small to medium crowd sizes. Several limitations will be addressed.
               </p>
-                <a href="#">Mike Wu</a>, 
+                <a href="#">Mike Wu</a>,
                 <a href="#">Madhu Krishnan</a>
               <br>
               <em>International Journal of Computer Science Issues</em>, 2013<br>
@@ -196,7 +234,7 @@
               This paper proposes a cost-effective approach to map and navigate an area with only the means of a single, low resolution camera on a "smart robot", avoiding the cost and unreliability of radar/sonar systems. Implementation is divided into three main parts: object detection, autonomous movement, and mapping by spiraling inwards and using the A* Path finding algorithm. Object detection is obtained by editing Horn-Schunck's optical flow algorithm to track pixel brightness factors to subsequent frames, producing outward vectors. These vectors are then focused on the objects using Sobel edge detection. Autonomous movement is achieved by finding the focus of expansion from those vectors and calculating time to collision which are then used to maneuver. Algorithms are programmed in MATLAB and implemented with LEGO Mindstorm NXT 2.0 robot for real-time testing with a low-resolution video camera. Through numerous trials and diversity of the situations, validity of results is ensured to autonomously navigate and map a room using solely optical inputs.
               </p>
                 <a href="#">Madhu Krishnan</a>,
-                <a href="#">Mike Wu</a>, 
+                <a href="#">Mike Wu</a>,
                 <a href="#">Young Kang</a>,
                 <a href="#">Sarah Lee</a>
               <br>
@@ -215,7 +253,7 @@
               The proposed method uses live image footage which, based on calculations of pixel motion, decides whether or not an object is in the blind-spot. If found, the driver is notified by a sensory light or noise built into the vehicle's CPU. The new technology incorporates optical vectors and flow fields rather than expensive radar-waves, creating cheaper detection systems that retain the needed accuracy while adapting to the current processor speeds.
               </p>
                 <a href="#">Stephen Yu</a>,
-                <a href="#">Mike Wu</a> 
+                <a href="#">Mike Wu</a>
               <br>
               <em>ArXiv</em>, 2011 (Printed 2016)<br>
                 <a href="http://arxiv.org/pdf/1603.07625v1.pdf">pdf</a>
@@ -254,7 +292,7 @@
             <td valign="top">
               <b>Probabilistic Programming Workshop</b>
               <p>
-              Parallel introductions to Anglican and spreadsheet-based probabilistic programming. Sample exercises included seven scientists, simple Gaussian examples, and physics demonstrations. The workshop was open to both academic and industry members. 
+              Parallel introductions to Anglican and spreadsheet-based probabilistic programming. Sample exercises included seven scientists, simple Gaussian examples, and physics demonstrations. The workshop was open to both academic and industry members.
               </p>
               With <a href="#">Frank Wood</a>, <a href="#">Yura Perov</a><br>
               <em>University of Southampton</em>, 2016<br>
@@ -297,7 +335,7 @@
             <td valign="top">
               <b>Unsupervised Learning in the Medical Domain Talk</b>
               <p>
-              Presentation on a switching-state autoregressive model to predict the onset and weaning of interventions in the intensive care unit. Latent features are learned in an unsupervised fashion that aid in successive supervised classification. Presented to the researchers at OpenAI. 
+              Presentation on a switching-state autoregressive model to predict the onset and weaning of interventions in the intensive care unit. Latent features are learned in an unsupervised fashion that aid in successive supervised classification. Presented to the researchers at OpenAI.
               </p>
               <em>Research Talk</em>, 2016<br>
               <a href="https://speakerdeck.com/mhw32/mimic">slides</a>
