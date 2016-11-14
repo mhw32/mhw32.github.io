@@ -2,18 +2,34 @@
 
 header {
   margin-bottom: 0;
-  padding: 2rem;
+  /*padding: 2rem;*/
   border-bottom: none;
   font-size: 80%;
 }
 
 header .navwrapper {
   text-align: center;
+  padding: 20px;
 }
 
-header .navwrapper {
+header .special-navwrapper {
+  height: 59px;
+  background-color: #1e88e5;
+  color: #fff;
   text-align: center;
+  position: relative;
+  z-index: 995;
 }
+
+header .special-navwrapper p {
+  margin: 0;
+  padding: 20px;
+}
+
+header .special-navwrapper a {
+  color: white;
+}
+
 
 header a.active {
   color: #222;
@@ -50,6 +66,10 @@ a.name {
   font-weight: 500;
   color: #222;
   font-size: 16px;
+}
+
+.tutoring-body a:hover {
+  color: black;
 }
 
 a:hover {
@@ -95,6 +115,13 @@ img.avatar {
   max-width: 225px;
   width: 100%;
   margin: 0 auto 4rem;
+}
+
+img.small-avatar {
+  border-radius: 100%;
+  max-width: 150px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 img.fullimg {
@@ -185,3 +212,75 @@ ul.blog-list p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+/* TUTORING SECTION */
+
+#home-intro {
+  background-color: #FF5733;
+  background-size: cover;
+  opacity: .8;
+  margin: 0;
+  max-width: none;
+  text-align: center;
+}
+
+#home-intro .find-tutors-about {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+#home-intro .find-tutors-about h3 {
+  color: white;
+}
+
+#home-intro .find-tutors-about p {
+  color: white;
+}
+
+#course-intro .course {
+  background-color: #eff0f1;
+  border-radius: 0px;
+}
+
+#course-intro .course-content {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#about-intro {
+  background-color: #eff0f1;
+  background-size: cover;
+  opacity: .8;
+  margin: 0;
+  max-width: none;
+}
+
+#about-intro .about-wrapper {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+#about-intro .about-wrapper a {
+  color: #1e88e5;
+  text-decoration:none
+}
+
+#about-intro .skill-wrapper {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+#about-intro .skill-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+#price-intro .price-wrapper {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
