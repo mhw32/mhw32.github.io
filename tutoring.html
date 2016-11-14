@@ -31,10 +31,10 @@
       <div class="navwrapper">
         <nav role="navigation">
           <ul>
-            <li><a href="#">Topics</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
+            <li id="topic-link"><a href="#">Topics</a></li>
+            <li id="about-link"><a href="#">About Me</a></li>
+            <li id="price-link"><a href="#">Pricing</a></li>
+            <li id="contact-link"><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -90,7 +90,7 @@
 
         <p>I graduated with honors in computer science from Yale University in 2016 and have also taken several courses at the University of Oxford. I've worked in 5 artificial intelligence research labs at UCSD, Yale, Harvard, MIT, and Oxford, and have published <a href='http://www.mikewuis.me/research.html'>5 machine learning papers</a> (still going!) and 2 patents.</p>
 
-        <p>So far, I've interned at two companies, started my own <a href='http://invrea.com/'>machine learning venture</a>, and created <a href='http://www.yhack.org/'>YHack</a>, one the largest collegiate hackathons in the world. In my free time, I work on <a href='http://www.mikewuis.me/projects.html'>side projects</a> and <a href='http://www.mikewuis.me/index.html'>blog</a>.</p>
+        <p>So far, I've interned at two companies, started my own <a href='http://invrea.com/'>machine learning venture</a>, and created <a href='http://www.yhack.org/'>YHack</a>, one of the largest collegiate hackathons in the world. In my free time, I work on <a href='http://www.mikewuis.me/projects.html'>side projects</a> and <a href='http://www.mikewuis.me/index.html'>blog</a>.</p>
       </div>
       <div class="skill-wrapper">
         <div class="skill-image">
@@ -124,6 +124,30 @@
         </div>
       </section>
     </footer>
+    <script>
+      $("#topic-link").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#course-intro").offset().top},
+            'slow');
+      });
 
+      $("#about-link").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#about-intro").offset().top},
+            'slow');
+      });
+
+      $("#price-link").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#price-intro").offset().top},
+            'slow');
+      });
+
+      $("#contact-link").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#price-intro").offset().top},
+            'slow');
+      });
+    </script>
   </body>
 </html>
