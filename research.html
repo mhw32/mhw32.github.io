@@ -42,7 +42,7 @@
             <li><a href="research.html" class="active">Research</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="jobs.html">Industry</a></li>
-            <li><a href="doodles.html">Doodles</a></li>
+            <!-- <li><a href="doodles.html">Doodles</a></li> -->
             <li><a href="v4-resume.pdf">CV</a></li>
           </ul>
         </nav>
@@ -50,40 +50,17 @@
     </header>
 
     <section class="text">
-      <p><img src="img/research_img.png" alt="Portrait of Mike Wu" class="fullimg avatar"></p>
-      <p class="intro">Helping machines learn better.</p>
-      <p>I'm very excited about the space of machine learning and artificial intelligence. While big data has brought us more data than we can handle, our most novel algorithms still struggle to extract useful information. My research range is wide; currently, I'm interested in the combination of deep nets and Bayesian inference.<p>
+      <p><img src="img/research_img.png" alt="Portrait of Mike Wu" class="fullimg small-avatar"></p>
+      <p>Out of the many different avenues of machine learning research, I'm most excited about deep generative models (VAEs, GANs, autoregressive models, etc.) and model interpretability (understanding why deep nets do what they do). You can find some of my published work and talks below.<p>
     </section>
 
-    <section class="featured">
+    <!-- <section class="featured">
       <p class="intro-title">Research in Progress</p>
       <table border="0" cellspacing="4" cellpadding="2" class="preprints">
         <tbody>
-          <tr>
-            <td valign="top">
-              <img src="img/astro.png" alt="link to pdf" width="130px" border="0px">
-            </td>
-            <td valign="top">
-              <b>Topological Hypothesis Tests for Large-Scale Structure of the Universe</b>
-              <p>
-              In order to understand the physics of the Universe, theoretical and computational cosmologists develop large-scale simulations that allow for analyzing the LSS under varying physical assumptions. In particular, different realizations of dark matter, warm and cold, are thought to lead to contrasting velocities of cosmic structure formation. However, rigorous comparisons and inference on such complicated structures can be problematic. We present a framework for hypothesis testing of LSS using persistent homology. The randomness in the data is transferred to randomness in the topological summaries, which provides an infrastructure for inference. We present several test statistics using persistence diagrams, carry-out a simulation study to investigate the suitableness of the proposed test statistics, and finally apply the inference framework to study topological disparities between assumptions of warm and cold dark matter.
-              </p>
-                <a href="#">Mike Wu</a>,
-                <a href="#">Jessica Cisewski</a>,
-                <a href="#">Larry Wasserman</a>,
-                <a href="#">Brittany Fasy</a>,
-                <a href="#">Mark Lovell</a>,
-                <a href="#">Wojciech Hellwing</a>
-              <br>
-              <em>In Progress</em>
-              <a href="astropaper.pdf" target="_blank">preprint</a>
-              | <a href="https://github.com/mhw32/Persistent-Homology">code</a>
-              <br>
-            </td>
-          </tr>
         </tbody>
       </table>
-    </section>
+    </section> -->
 
     <section class="featured">
       <p class="intro-title">Research Archive</p>
@@ -94,17 +71,20 @@
               <img src="img/interpret.png" alt="link to pdf" width="130px" border="0px">
             </td>
             <td valign="top">
-              <b>Beyond Sparsity: Tree-based Regularization of Deep Models for Interpretability</b>
+              <b>Beyond Sparsity: Tree Regularization of Deep Models for Interpretability</b>
               <p>
-                The lack of interpretability remains a key barrier to the adoption of deep models in many applications. In this work, we explicitly regularize deep models so human users might step through the process behind their predictions in little time. Specifically, we train deep timeseries models so their class- probability predictions have high accuracy while being closely modeled by decision trees with few nodes. On several real and synthetic examples, we demonstrate that this new tree- based regularization is distinct from simpler L2 or L1 penalties, resulting in more human-interpretable models without sacrificing predictive power.
+                The lack of interpretability remains a key barrier to the adop- tion of deep models in many applications. In this work, we explicitly regularize deep models so human users might step through the process behind their predictions in little time. Specifically, we train deep timeseries models so their class- probability predictions have high accuracy while being closely modeled by decision trees with few nodes. On several real and synthetic examples, we demonstrate that this new tree- based regularization is distinct from simpler L2 or L1 penal- ties, resulting in more human-interpretable models without sacrificing predictive power.
               </p>
                 <a href="#">Mike Wu</a>,
                 <a href="#">Michael C. Hughes</a>,
                 <a href="#">Sonali Parbhoo</a>,
+                <a href="#">Maurizio Zazzi</a>,
+                <a href="#">Volker Roth</a>,
                 <a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>
               <br>
-              <em>Submitted to AAAI 2017</em><br>
-                <a href="interpretablepaper.pdf">preprint</a>
+              <em>AAAI 2018</em><br />
+              <em>NIPS 2017 TIML Workshop (Oral Presentation)</em><br />
+              <a href="interpretablepaper.pdf">preprint</a>
               <br>
             </td>
           </tr>
@@ -123,10 +103,10 @@
                 <a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>
               <br>
               <em>AMIA CRI</em>, 2017<br>
+              <b>Nominee for AMIA Clinical Informatics Research Award</b><br />
                 <a href="http://mghassem.mit.edu/wp-content/uploads/2017/01/Ghassemi_AMIACRI2017_Predicting_Intervention_Onset.pdf" target="_blank">pdf</a>
                 | <a href="https://github.com/dtak/mimic-tools">code</a>
               <br>
-              <b>Nominated for Best Paper</b>
             </td>
           </tr>
           <tr>
@@ -170,7 +150,31 @@
               <br>
             </td>
           </tr>
+
           <tr>
+            <td valign="top">
+              <img src="img/astro.png" alt="link to pdf" width="130px" border="0px">
+            </td>
+            <td valign="top">
+              <b>Topological Hypothesis Tests for Large-Scale Structure of the Universe</b>
+              <p>
+              In order to understand the physics of the Universe, theoretical and computational cosmologists develop large-scale simulations that allow for analyzing the LSS under varying physical assumptions. In particular, different realizations of dark matter, warm and cold, are thought to lead to contrasting velocities of cosmic structure formation. However, rigorous comparisons and inference on such complicated structures can be problematic. We present a framework for hypothesis testing of LSS using persistent homology. The randomness in the data is transferred to randomness in the topological summaries, which provides an infrastructure for inference. We present several test statistics using persistence diagrams, carry-out a simulation study to investigate the suitableness of the proposed test statistics, and finally apply the inference framework to study topological disparities between assumptions of warm and cold dark matter.
+              </p>
+                <a href="#">Mike Wu</a>,
+                <a href="#">Jessica Cisewski</a>,
+                <a href="#">Larry Wasserman</a>,
+                <a href="#">Brittany Fasy</a>,
+                <a href="#">Mark Lovell</a>,
+                <a href="#">Wojciech Hellwing</a>
+              <br>
+              <em>Work in progress</em><br />
+              <a href="astropaper.pdf" target="_blank">preprint</a>
+              | <a href="https://github.com/mhw32/Persistent-Homology">code</a>
+              <br>
+            </td>
+          </tr>
+
+<!--           <tr>
             <td valign="top">
               <img src="img/socialrob.png" alt="link to pdf" width="130px" border="0px">
             </td>
@@ -190,13 +194,13 @@
                 | <a href="https://github.com/ScazLab/hrteaming-bctask">code</a>
               <br>
             </td>
-          </tr>
+          </tr> -->
           <tr>
             <td valign="top">
               <img src="img/cusum.png" alt="link to pdf" width="130px" border="0px">
             </td>
             <td valign="top">
-              <b>Financial Market Prediction</b>
+              <b>Financial Market Prediction Using Self-Organizing Maps</b>
               <p>
               Given financial data from popular sites like Yahoo and the London Exchange, the presented paper attempts to model and predict stocks that can be considered "good investments". Stocks are characterized by 125 features ranging from gross domestic product to EDIBTA, and are labeled by discrepancies between stock and market price returns. An artificial neural network (Self-Organizing Map) is fitted to train on more than a million data points to predict "good investments" given testing stocks from 2013 and after.
               </p>
