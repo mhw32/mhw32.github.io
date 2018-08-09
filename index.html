@@ -10,19 +10,12 @@
     <meta name="description" content="I'm Mike Wu, a machine learning enthusiast, researcher, entrepreneur, and artist.">
 
     <!-- css inclusions. -->
-    <link rel='stylesheet' href='css/main.css' />
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat' type='text/css'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Sans' type='text/css'>
-    <!-- <meta name="google-site-verification" content="bStnDdxWK7iCGz7PNTE8m68lxx54yNvb21GUdr4a2nI" /> -->
+    <link rel='stylesheet' href='style.css' />
     <meta name="google-site-verification" content="gqABhyTbrCW1CtRqLqXhK3j909rFVxeYsQjeY5fTp74" />
-    <!-- font link. -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <!-- favicon link. -->
-    <link rel='icon' href='img/favicon.png' />
+    <link rel='icon' href='favicon.png' />
     <!-- client-side javascript. -->
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <title> Mike Wu | About</title>
+    <title> Mike Wu </title>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,59 +28,166 @@
 
     </script>
   </head>
-  <body>
-    <header>
-      <div class="navwrapper">
-        <a href="index.html" class="name">Mike Wu</a>
-        <nav role="navigation">
-          <ul>
-            <li><a href="index.html" class="active">About</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="jobs.html">Industry</a></li>
-            <!-- <li><a href="doodles.html">Doodles</a></li> -->
-            <li><a href="WuMike_CV_11_19_17.pdf">CV</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  <body cz-shortcut-listen="true">
+    <div id="info">
+      <img height="130px" src="./profile.png" border="0" style='border-radius: 3px;'>
+      <br>
+      <br>
+      <h1 id="name">mike wu</h1>
+      <p>
+        PhD Candidate
+        <br>
+        Computer Science
+        <br>
+        Stanford University
+        <br>
+      </p>
+      <p>
+        Room 334
+        <br>
+        Jordan Hall
+        <br>
+        Stanford, CA 94025
+        <br>
+        wumike [at] stanford [dot] edu
+        <br>
+      </p>
+      <br>
+    </div>
 
-    <section class="text">
-      <p><img src="img/index_img.png" alt="Portrait of Mike Wu" class="fullimg avatar"></p>
-      <p class="intro">Hi! I'm Mike Wu.</p>
+    <div id="main">
+      <h1>
+        about &nbsp;&nbsp;&nbsp;
+        <a class="nav" href="https://github.com/mhw32">github</a> &nbsp;&nbsp;&nbsp;
+      </h1>
 
-      <p>I like to spend a lot of my time thinking and coding random ideas, some related to machine learning research, some for hackathon projects, and others for startup ventures.
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td width="50%" valign="top" style="padding-right: 25px;">
 
-
-      <p>From the research side, I'm interested in (1) better deep generative models and (2) interpretability in deep learning. Currently, I'm a first-year PhD student at Stanford rotating in <a href="https://cocolab.stanford.edu/ndg.html" >Noah Goodman's</a> lab. Check <a href="research.html">this</a> out for more about my research.</p>
-
-      <p>In the past, I've learned lots from working at Facebook Research, collaborating with AI labs at Yale, Harvard, and Oxford, cofounding <a href="http://www.yhack.org">YHack</a>, an international collegiate hackthon, and starting <a href="http://invrea.com/">Invrea</a>, a spreadsheet probabilistic programming language built directly in Excel.</p>
-
-      <p>Got similar interests? You can catch me best by <a href="mailto:me@mikehwu.com">email</a>.</p>
-
-      <!-- <p>One of my favorite pastimes is blogging. I write about a spectrum of topics from machine learning to art to psychology. I'd love to get any feedback possible.</p>
-      <ul class="blog-list">
-        <li><p><a href="https://medium.com/@grubiroth/stepping-into-the-world-of-robotics-d55f09fc755a#.5ksf5pees" target="_blank">Stepping into the World of Robotics</a></p></li>
-        <li><p><a href="https://medium.com/@grubiroth/following-your-passion-d73567fffa8#.1aeujv89q" target="_blank">Following your Passion</a></p></li>
-        <li><p><a href="https://medium.com/machine-intelligence-report/deep-simplicity-6a93724688fa#.so0qvdy2m" target="_blank">Deep Simplicity</a></p></li>
-        <li><p><a href="https://medium.com/@grubiroth/lorem-ipsum-30c97339ba71#.7s53orc0j" target="_blank">Lorem Ipsum</a></p></li>
-        <li><p><a href="https://medium.com/@grubiroth/dumbing-it-down-linear-regression-81165ceab8d#.d8p4mpi5t" target="_blank">Dumbing it Down: Linear Regression</a></p></li>
-        <li><p><a href="https://medium.com/@grubiroth/dumbing-it-down-non-linear-regression-d6573b3d2f3f" target="_blank">Dumbing it Down: Non-linear Regression</a></p></li>
-      </ul> -->
-    </section>
-
-    <footer>
-      <section class="footersection">
-        <div class="title">
-          <h2>Get in touch.</h2>
-          Reach out for anything to everything.
-        </div>
-
-        <div class="copyline">
-          Copyright &copy; 2016 Mike Wu | <a href="mailto:me@mikehwu.com">me@mikehwu.com</a> | Github (<a href="http://github.com/mhw32">@mhw32</a>) | Profile images filtered with <a href="https://github.com/jcjohnson/neural-style">neural style</a>.
-        </div>
-      </section>
-    </footer>
-
+              <div class="entry">
+                I am a PhD student at Stanford, where I work with <a href='https://cocolab.stanford.edu/ndg.html'>Noah Goodman</a> and <a href='https://cs.stanford.edu/~ermon/'>Stefano Ermon</a>. My current research interests are in bayesian deep learning, sampling methods, and inference in generative models. I am supported by the NSF GRFP grant.
+                <br>
+                <br>
+                I completed my undergrad in computer science at Yale University ('16). I also briefly spent time abroad at University of Oxford with <a href='http://www.robots.ox.ac.uk/~fwood/'>Frank Wood</a>, and at Harvard with <a href='https://finale.seas.harvard.edu/'>Finale Doshi-Velez</a>.
+                <br>
+                <br>
+              </div>
+              <h1 style="padding-top: 0px;">PUBLICATIONS</h1>
+              <br>
+              <h6 style="padding-top: 0px;">Conference Papers</h6>
+              <div class="entry2">
+                <div class="main">
+                  <font color="orange">Mike Wu</font>, Yura Perov, Frank Wood, Hongseok Yang, William Smith. <strong>Spreadsheet Probabilistic Programming</strong>. <i>The International Conference on Probabilistic Programming</i> (PROBPROG), 2018.
+                  <br>
+                  <br>
+                  <font color="orange">Mike Wu</font>,  Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, Finale Doshi-Velez. <strong>Beyond Sparsity: Tree Regularization of Deep Models for Interpretability</strong>. <i>Association for the Advancement of Artificial Intelligence</i> (AAAI), 2018. <font color='orange'>Spotlight presentation</font>.
+                  <br>
+                  <br>
+                  Marzyeh Ghassemi, <font color="orange">Mike Wu</font>, Michael C. Hughes, Finale Doshi-Velez. <strong>Predicting intervention onset in the ICU with switching statespace models</strong>. <i>Joint Summits on Translational Science</i> (AMIA), 2017. <font color="orange">Nominated for Clinical Informatics Research Award</font>.
+                  <br>
+                  <br>
+                  <font color="orange">Mike Wu</font>, Marzyeh Ghassemi, Mengling Feng, Leo Anthony Celi, Peter Szolovitz, Finale Doshi-Velez. <strong>Understanding vasopressor intervention and weaning: Risk prediction in a public heterogeneous clinical time series database</strong>. <i>Journal of the American Medical Informatics Association</i> (JAMIA), 2016.
+                  <br>
+                  <br>
+                  <font color="orange">Mike Wu</font>, Madhu Krishnan. <strong>Edge-based Crowd Detection from Single Image Datasets</strong>. <i>International Journal of Computer Science Issues</i> (IJCSI), 2013.
+                  <br>
+                  <br>
+                  Madhu Krishnan, <font color="orange">Mike  Wu</font>, Young Kang, Sarah Lee. <strong> Autonomous Mapping and Navigation through Utilization of Edge-based Optical Flow and Time-to-Collision</strong>. <i>ARPN Journal of Engineering and Applied Sciences</i>, 2012.
+                  <br>
+                  <br>
+                </div>
+              </div>
+              <h6 style="padding-top: 0px;">Unpublished Preprints</h6>
+              <div class="entry3">
+                <div class="main">
+                  <font color="orange">Mike Wu</font>, Jessica Cisewski, Larry Wasserman, Brittany Fasy, Mark Lovell, Wojciech Hellwing. <strong>Topological Hypothesis Tests for Large-Scale Structure of the Universe</strong>. <i>Work in progress</i>.
+                  <br>
+                  <br>
+                  <font color="orange">Mike Wu</font>. <strong>Financial Market Prediction Using Self-Organizing Maps</strong>. <i>arXiv</i>, 2015.
+                  <br>
+                  <br>
+                  Stephen Yu, <font color="orange">Mike Wu</font>. <strong>Position and Vector Detection of Blind Spot motion with the Horn-Schunck Optical Flow</strong>. <i>arXiv</i>, 2011. <font color='orange'>Intel ISEF Finalist</font>: Third place category award, 2011. <font color='orange'>Siemens Semifinalist,</font> 2012. <font color='orange'>XSEDE Best student poster</font>, 2011.
+                  <br>
+                  <br>
+                </div>
+              </div>
+              <br>
+              <h1 style="padding-top: 0px;">TEACHING</h1>
+              <br>
+              <h6 style="padding-top: 0px;">Teaching Assistantships</h6>
+              <div class="entry4">
+                <div class="main">
+                  <a href='https://zoo.cs.yale.edu/classes/cs437/'>CPSC437</a>:  Operating System Concepts (Yale Spring 2016) with Avi Silberschatz
+                  <br>
+                  <a href='https://mgt656.som.yale.edu/'>MGT656</a>: Management of Software Development (Yale Fall 2015) with Kyle Jensen
+                  <br>
+                </div>
+              </div>
+              <br>
+              <h1 style="padding-top: 0px;">WORK</h1>
+              <br>
+              <div class="entry5">
+                <div class="main">
+                  Visiting engineer at <a href='https://research.fb.com/'>Facebook</a> Applied Machine Learning (AML) group. Jan '17 to Jul '17.
+                  <br>
+                  Software engineer at <a href='https://techcrunch.com/2017/05/13/apple-acquires-ai-company-lattice-data-a-specialist-in-unstructured-dark-data/'>Lattice</a>. Sept '16 to Nov '16.
+                  <br>
+                  Co-founder at <a href='http://invrea.com/'>Invrea</a>. Jan '15 to Aug '16.
+                  <br>
+                  Intern at <a href='http://www.ionispharma.com/'>Ionis Pharma</a>. May '13  to Aug '13.
+                  <br>
+                </div>
+              </div>
+              <br>
+              <h1 style="padding-top: 0px;">TALKS</h1>
+              <br>
+              <table style="width:100%">
+                <tbody>
+                  <tr>
+                    <td>
+                      <i>
+                        <u>Probabilistic Programming Workshop</u>
+                      </i>
+                    </td>
+                    <td>University of Southampton</td>
+                    <td>2016</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i>
+                        <u>Introduction to Deep Learning</u>
+                      </i>
+                    </td>
+                    <td>Yale Technology Conference</td>
+                    <td>2015</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <h1 style="padding-top: 0px;">OTHER</h1>
+              <br>
+              <div class="entry5">
+                <div class="main">
+                  Co-founded <a href='http://www.yhack.org/'>YHack</a> in 2013.
+                  <br>
+                  Augmented reality prize. Angelhack, 2018.
+                  <br>
+                  Telesign API 1st place prize. API World hackathon, 2017.
+                  <br>
+                  First place prize. Truface.ai hackathon, 2017.
+                  <br>
+                  Top 8 projects. Dropbox API prize. HackMIT, 2014.
+                  <br>
+                </div>
+              </div>
+              <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
