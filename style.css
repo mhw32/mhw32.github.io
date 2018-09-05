@@ -85,13 +85,13 @@ entry1 {
 }
 .entry2 {
     clear: both;
-    height: 260px;
+    height: 310px;
     margin-bottom: 6px;
 /*overflow: hidden;*/
 }
 .entry3 {
     clear: both;
-    height: 100px;
+    height: 70px;
     margin-bottom: 6px;
 /*overflow: hidden; add 40*/
 }
