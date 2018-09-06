@@ -110,6 +110,13 @@ entry1 {
 /*overflow: hidden; add 40*/
 }
 
+.entry6 {
+    clear: both;
+    height: 40px;
+    margin-bottom: 6px;
+/*overflow: hidden; add 40*/
+}
+
 .entry img {
     float: left;
     border: 1px solid #fff;
