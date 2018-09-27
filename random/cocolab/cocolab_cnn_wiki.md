@@ -20,8 +20,6 @@ Your password will be set to:
 hello<username>
 ```
 
-You can change you username later if you would like.
-
 ## Using the Cluster
 
 To login to the cluster, use the following:
@@ -40,8 +38,7 @@ Also, node1 is special as it is the master node. To run `salt` commands (i.e. ch
 
 To see the GPUs and the processes being run, call `nvidia-smi` in bash. You will see 10 Titan X's with the amount of memory being used on each one. In total, 1 Titan X has a little under 12000Mi memory.
 
-To see who a process id belongs to, run `ps aux | grep <pid>`. This will give you their username.
-
+To see who a process id belongs to, run `ps aux | grep <pid>`. This will give you their username. Another helpful command is `htop`.
 
 ### Running jobs
 
@@ -62,6 +59,23 @@ sudo kill <pid>
 ```
 
 Again, be careful! Also, if you are running jobs on other nodes, be aware that your jobs may be killed.
+
+
+### Installing Things
+
+Because you have `sudo`, you can install whatever you want. **But this is generally not a good idea** as versions will conflict with others. Default libraries have been installed like PyTorch, Tensorflow, NumPy so you will automatically have them. If (like me) you need specific versions of libraries or new ones, I have a Miniconda installer sitting in `/mnt/fs5/wumike/`. This will install a local virtual environment that should be easy to manage. Once you install an environment, call `source activate <env_name>` to activate it. For example, this is my workflow:
+
+```
+sudo cp /mnt/fs5/wumike/Miniconda2-latest-Linux-x86_64.sh ~
+cd ~
+bash Miniconda2-latest-Linux-x86_64.sh
+conda create -n <env_name> python anaconda
+source activate <env_name>
+conda install <whatever_you_want>
+pip install <whatever_you_want>
+```
+
+Remember you activate your environment or else it's like you didn't do anything. To deactivate, run `source deactivate`.
 
 ### Storage
 
