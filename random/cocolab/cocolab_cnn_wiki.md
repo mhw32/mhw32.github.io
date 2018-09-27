@@ -79,6 +79,6 @@ Remember you activate your environment or else it's like you didn't do anything.
 
 ### Storage
 
-There is a lot of storage. You should save your files in your personal `~` directory. Instead, check out `/mnt/fsX` where `X` is greater than 2. These are huge filesystems and allow for fast read and write (see CCN wiki for why). You can `sudo` make a directory in one these for yourself. For example, I have one in `/mnt/fs5/wumike`. You can store datasets, trained models, etc. here. There are also some common datasets (i.e. ImageNet) already loaded in each filesystem.
+There is a lot of storage. You should **not** save your files in your personal `~` directory. Instead, check out `/mnt/fsX` where `X` is greater than 2. These are huge filesystems and allow for fast read and write (see CCN wiki for why). You can `sudo mkdir` a directory in one these for yourself. For example, I have one in `/mnt/fs5/wumike`. You can store datasets, trained models, etc. here. There are also some common datasets (i.e. ImageNet) already loaded in each filesystem.
 
 
