@@ -1,182 +1,28 @@
-body {
-    max-width: 960px;
-    min-width: 960px;
-    width: 960px;
-    padding: 12px 20px 12px 20px;
-    color: #000;
-    background: #fff;
-}
-
 /* Typeface and Text Size */
-body {
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    font-size: 0.65em;
-    line-height: 1.3em;
-}
-p { margin: 0px 0px 12px 0px; }
-h1 {
-    font-size: 1.25em;
-    font-weight: bold;
-    margin: 0 0 15px 0;
-}
-h6 { /* h6 is special... */
-    font-size: 1.5em;
-    font-weight: normal;
-    font-variant: small-caps;
-    letter-spacing: 1px;
-    color: #777;
-    line-height: 0.60em;
-    margin: 0px 0px 15px 0px;
-}
-h2, h3, h4, h5 { font-size: 1em; font-weight: bold; }
-h2 { margin: 10px 0px 8px 0px }
-h3, h4, h5 { margin: 0px; }
-br.space { line-height: 0.25em; }
+p { font-family: 'Open Sans', sans-serif;}
+h1 { font-family: 'Open Sans', sans-serif;}
+h2 { font-family: 'Open Sans', sans-serif;}
+h3 { font-family: 'Open Sans', sans-serif;}
+h4 { font-family: 'Open Sans', sans-serif;}
+h5 { font-family: 'Open Sans', sans-serif;}
+h6 { font-family: 'Open Sans', sans-serif;}
 
 /* Hyperlinks */
 a, a:visited, a:hover { color: #000; }
-a.nav, a.nav:visited { color: #888; font-weight: normal; }
 a:hover, a.nav:hover { color: orange; }
 
-/* Tables */
-table, tr, td { margin: 0; padding: 0; }
-td { padding: 0px 10px 0px 0px; }
-tr.visited td { color: #888; }
-tr.visited a { color: #888; }
-
-/* Lists */
-ul { margin: 0; padding: 5px 0px 7px 20px; }
-li { margin-bottom: 2px; }
-
 /* Page Layout */
-#main { margin-left: 230px; }
-#info { float: left; width: 210px; }
-#info td { padding: 0px 0px 4px 0px; }
-#info div { margin-top: 25px; }
-#name {
-    font-variant: small-caps;
-    font-size: 1.5em;
-    margin-top: -1px;
-    letter-spacing: 0.065em;
-}
-.announce {
-    width: 190px;
-    padding: 0px 0px 0px 7px;
-    border: dashed 1px #ccc;
-}
-.more {
-    width: 100%;
-    font-weight: bold;
-    text-align: right;
-}
+table, tr, td, thead, tbody {display: block!important;}
+tr {float: left!important;}
+.trimg {width: 20%!important; min-width: 200px!important;}
+.trtxt {width: 80%!important;}
 
-/* Project Entries */
-.entry {
-    clear: both;
-    height: 90px;
-    margin-bottom: 6px;
-/*overflow: hidden;*/
-}
-entry1 {
-    clear: both;
-    height: 110px;
-    margin-bottom: 6px;
-/*overflow: hidden;*/
-}
-.entry2 {
-    clear: both;
-    height: 310px;
-    margin-bottom: 6px;
-/*overflow: hidden;*/
-}
-.entry3 {
-    clear: both;
-    height: 70px;
-    margin-bottom: 6px;
-/*overflow: hidden; add 40*/
-}
-
-.entry4 {
-    clear: both;
-    height: 40px;
-    margin-bottom: 6px;
-/*overflow: hidden; add 40*/
-}
-
-.entry5 {
-    clear: both;
-    height: 65px;
-    margin-bottom: 6px;
-/*overflow: hidden; add 40*/
-}
-
-.entry6 {
-    clear: both;
-    height: 80px;
-    margin-bottom: 6px;
-/*overflow: hidden; add 40*/
-}
-
-.entry img {
+.left_column {
     float: left;
-    border: 1px solid #fff;
-    margin: 2px 7px 5px 0px;
-    padding: 0px;
-}
-.entry a:hover img {
-    border: 1px solid #33f;
-}
-.entry .links {
-    margin: 5px 0px 0px 0px;
-}
-.entry .main {
-    padding-top: 1px;
+    width: 20%;
 }
 
-/* Curriculum Vitae */
-#vita h6,
-#vita .body {
-    margin-left: 135px;
-}
-#vita .margin {
+.right_column {
     float: left;
-    width: 115px;
-    margin-right: 15px;
-    padding-left: 5px;
-    text-align: right;
+    width: 20%;
 }
-
-/* Bio */
-#bio .body {
-    width: 495px; //398
-}
-.right {
-    float: right;
-}
-
-/* Contact */
-#contact .body {
-    width: 495px;
-}
-#contact .body a {
-    font-weight: bold;
-}
-
-/* IE6 work-around hack */
-/* Hide from IE5-mac. Only IE-win sees this. \*/
-* html #vita .body {
-    height: 1%;
-    margin-left: 0;
-}
-* html #info {
-    margin-right: 15px;
-}
-* html #main {
-    width: 721px;
-    height: 1%;
-    margin-left: 0;
-}
-* html .entry {
-    height: 65px;
-}
-/* End hide from IE5-mac */
