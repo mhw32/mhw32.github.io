@@ -85,7 +85,7 @@ entry1 {
 }
 .entry2 {
     clear: both;
-    height: 310px;
+    height: 360px;
     margin-bottom: 6px;
 /*overflow: hidden;*/
 }
@@ -112,7 +112,7 @@ entry1 {
 
 .entry6 {
     clear: both;
-    height: 80px;
+    height: 40px;
     margin-bottom: 6px;
 /*overflow: hidden; add 40*/
 }
