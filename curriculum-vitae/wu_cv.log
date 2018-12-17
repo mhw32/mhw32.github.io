@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 DEC 2018 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 DEC 2018 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,7 +235,7 @@ pdfTeX warning (dest): name{section.1} has been referenced but does not exist
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on wu_cv.pdf (3 pages, 87993 bytes).
+Output written on wu_cv.pdf (3 pages, 88007 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
