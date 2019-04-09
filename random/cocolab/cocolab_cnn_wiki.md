@@ -2,6 +2,14 @@
 
 A short walkthrough common questions and setup for getting access to the CCN (GPU) cluster. A lot of information here will repeated from https://github.com/neuroailab/cluster_setup/wiki/CCN-Cluster.
 
+## Current CoCoLab CCN users
+
+```
+shyamal, wumike, bpeloqui, bria, malikali, schopra8, btorok, rxdh, anie, erindb
+```
+
+All other users have lower priority on Node10/13.
+
 ## Getting Access
 
 Email wumike@stanford.edu (your CoCoLab contact for cluster questions) to have him request an account for you with Dan Yamins (the cluster owner). Please provide the following information:
