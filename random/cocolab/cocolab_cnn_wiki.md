@@ -5,7 +5,7 @@ A short walkthrough common questions and setup for getting access to the CCN (GP
 ## Current CoCoLab CCN users
 
 ```
-shyamal, wumike, bpeloqui, bria, malikali, schopra8, btorok, rxdh, anie, erindb
+shyamal, wumike, bpeloqui, bria, malikali, schopra8, btorok, rxdh, anie, erindb, hoksyung, mmosse19, ron
 ```
 
 All other users have lower priority on Node10/13.
