@@ -7,3 +7,34 @@ a {
     color: orange;
     text-decoration-color: red;
 }
+
+.preprint {
+    background: rgba(252, 61, 3, 0.1);
+    margin: 15px 0px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(252, 61, 3, 0.3);
+
+}
+
+.paper {
+    background: rgba(76, 175, 80, 0.1);
+    margin: 15px 0px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(76, 175, 80, 0.3);
+}
+
+.talk {
+    background: rgba(3, 194, 252, 0.1);
+    margin: 15px 0px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(3, 194, 252, 0.3);
+}
