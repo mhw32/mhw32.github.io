@@ -53,27 +53,55 @@
         <div style='text-align: left;'>
           <div class="preprint">
             <p>
-              <b>Meta-Amortized Variational Inference and Learning</b><br />
-              <span style='font-size: 14px;'><u>Mike Wu</u> (*), Kristy Choi (*), Noah Goodman, Stefano Ermon. <i>ArXiv</i>. <a href="./papers/meta_inference.pdf">(draft)</a></span><br />
+              <b>Meta-Amortized Variational Inference and Learning</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                Despite the recent success in probabilistic modeling and their applications, generative models trained using traditional inference techniques struggle to adapt to new distributions, even when the target distribution may be closely related to the ones seen during training. In this work, we present a doubly-amortized variational inference procedure as a way to address this challenge. By sharing computation across not only a set of query inputs, but also a set of different, related probabilistic models, we learn transferable latent representations that generalize across several related distributions. In particular, given a set of distributions over images, we find the learned representations to transfer to different data transformations. We empirically demonstrate the effectiveness of our method by introducing the MetaVAE, and show that it significantly outperforms baselines on downstream image classification tasks on MNIST (10-50%) and NORB (10-35%).
+              </span>
+              <br />
+              <br />
+              <span style='font-size: 14px;'><u>Mike Wu</u> (*), Kristy Choi (*), Noah Goodman, Stefano Ermon. <i>Submitted 2019</i>. <a href="./papers/meta_inference.pdf">(draft)</a></span><br />
               <span style='font-size: 12px;'>(*) equal contribution</span>
             </p>
           </div>
           <div class="preprint">
             <p>
-              <b>Generative Grading: Neural Approximate Parsing for Automated Student Feedback</b><br />
+              <b>Generative Grading: Neural Approximate Parsing for Automated Student Feedback</b>
+
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>Open access to high-quality education is limited by the  difficulty of providing student feedback  at scale. In this paper, we present Generative Grading with Neural Approximate Parsing (GG-NAP):  a novel computational approach for providing feedback at scale that is capable of both accurately grading student work while also providing verifiability---a property where the model is able to substantiate its claims with a provable certificate. Our approach uses generative descriptions of student cognition, written as probabilistic programs, to synthesise millions of labelled example solutions to a problem; it then trains inference networks to approximately parse real student solutions according to these generative models. With this approach, we achieve feedback prediction accuracy comparable to human experts in many settings: short-answer questions, programs with graphical output, block-based programming, and short Java programs. In a real classroom, we ran an experiment where humans used GG-NAP to grade, yielding doubled grading accuracy while halving grading time.</span>
+              <br />
+              <br />
+
               <span style='font-size: 14px;'>Ali Malik (*), <u>Mike Wu</u> (*), Vrinda Vasavada, Jinpeng Song, John Mitchell, Noah Goodman, Chris Piech. <i>Submitted 2019</i>. <a href="./papers/generative_grading.pdf">(draft)</a></span><br />
               <span style='font-size: 12px;'>(*) equal contribution</span>
             </p>
           </div>
           <div class="preprint">
           <p>
-              <b>Optimizing for Interpretability in Deep Neural Networks with Simulable Decision Trees</b><br />
+              <b>Optimizing for Interpretability in Deep Neural Networks with Simulable Decision Trees</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                Deep models have advanced prediction in many domains, but their lack of interpretability remains a key barrier to the adoption in many real world applications. There exists a large body of work aiming to help humans understand these black box functions to varying levels of granularity -- for example, through distillation, gradients, or adversarial examples. These methods however, all tackle interpretability as a separate process after training. In this work, we take a different approach and explicitly regularize deep models so that they are well-approximated by processes that humans can step-through in little time. Specifically, we train several families of deep neural networks to resemble compact, axis-aligned decision trees without significant compromises in accuracy. The resulting axis-aligned decision functions uniquely make tree regularized models easy for humans to interpret. Moreover, for situations in which a single, global tree is a poor estimator, we introduce a regional tree regularizer that encourages the deep model to resemble a compact, axis-aligned decision tree in predefined, human-interpretable contexts. Using intuitive toy examples as well as medical tasks for patients in critical care and with HIV, we demonstrate that this new family of tree regularizers yield models that are easier for humans to simulate than simpler L1 or L2 penalties without sacrificing predictive power.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'><u>Mike Wu</u>, Sonali Parbhoo, Michael C. Hughes, Volker Roth, Finale Doshi-Velez. <i>Submitted 2019</i>. <a href="./papers/jair_interp.pdf">(draft)</a></span>
             </p>
           </div>
           <div class="preprint">
             <p>
-              <b>Regional Tree Regularization for Interpretability in Black Box Models</b><br />
+              <b>Regional Tree Regularization for Interpretability in Black Box Models</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+              The lack of interpretability remains a barrier to adopting deep neural networks across many safety-critical domains. Tree regularization was recently proposed to encourage a deep neural network's decisions to resemble those of a globally compact, axis-aligned decision tree. However, it is often unreasonable to expect a single tree to predict well across all possible inputs. In practice, doing so could lead to neither interpretable nor performant optima. To address this issue, we propose regional tree regularization -- a method that encourages a deep model to be well-approximated by several separate decision trees specific to predefined regions of the input space. Across many datasets, including two healthcare applications, we show our approach delivers simpler explanations than other regularization schemes without compromising accuracy. Specifically, our regional regularizer finds many more "desirable" optima compared to global analogues.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'><u>Mike Wu</u>, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, Finale Doshi-Velez. <i>Submitted 2019</i>. <a href="./papers/local_interp.pdf">(draft)</a></span>
             </p>
           </div>
@@ -84,55 +112,117 @@
         <div style='text-align: left;'>
           <div class="paper">
             <p>
-              <b>Pragmatic inference and Visual Abstraction Enable Contextual Flexibility during Visual Communication</b><br />
+              <b>Pragmatic inference and Visual Abstraction Enable Contextual Flexibility during Visual Communication</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                Visual modes of communication are ubiquitous in modern life --- from maps to data plots to political cartoons. Here we investigate drawing, the most basic form of visual communication. Participants were paired in an online environment to play a drawing-based reference game. On each trial, both participants were shown the same four objects, but in different locations. The sketcher's goal was to draw one of these objects so that the viewer could select it from the array. On "close" trials, objects belonged to the same basic-level category, whereas on "far" trials objects belonged to different categories. We found that people exploited shared information to efficiently communicate about the target object: on far trials, sketchers achieved high recognition accuracy while applying fewer strokes, using less ink, and spending less time on their drawings than on close trials. We hypothesized that humans succeed in this task by recruiting two core faculties: visual abstraction, the ability to perceive the correspondence between an object and a drawing of it; and pragmatic inference, the ability to judge what information would help a viewer distinguish the target from distractors. To evaluate this hypothesis, we developed a computational model of the sketcher that embodied both faculties, instantiated as a deep convolutional neural network nested within a probabilistic program. We found that this model fit human data well and outperformed lesioned variants. Together, this work provides the first algorithmically explicit theory of how visual perception and social cognition jointly support contextual flexibility in visual communication.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'>Judith Fan, Robert X.D. Hawkins, <u>Mike Wu</u>, Noah Goodman. <i>Computational Brain & Behavior (2019)</i>. <a href="https://arxiv.org/abs/1903.04448">(paper)</a>.</span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Differentiable Antithetic Sampling for Variance Reduction in Stochastic Variational Inference</b><br />
+              <b>Differentiable Antithetic Sampling for Variance Reduction in Stochastic Variational Inference</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                Stochastic optimization techniques are standard in variational inference algorithms. These methods estimate gradients by approximating expectations with independent Monte Carlo samples. In this paper, we explore a technique that uses correlated, but more representative , samples to reduce estimator variance. Specifically, we show how to generate antithetic samples that match sample moments with the true moments of an underlying importance distribution. Combining a differentiable antithetic sampler with modern stochastic variational inference, we showcase the effectiveness of this approach for learning a deep generative model.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'><u>Mike Wu</u>, Noah Goodman, Stefano Ermon. <i>AISTATS 2019</i>. </i><a href="https://arxiv.org/abs/1810.02555">(paper)</a></span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Zero Shot Learning for CodeEducation: Rubric Sampling with Deep Learning Inference</b><br />
+              <b>Zero Shot Learning for CodeEducation: Rubric Sampling with Deep Learning Inference</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                In modern computer science education, massive open online courses (MOOCs) log thousands of hours of data about how students solve coding challenges. Being so rich in data, these platforms have garnered the interest of the machine learning community, with many new algorithms attempting to autonomously provide feedback to help future students learn. But what about those first hundred thousand students? In most educational contexts (i.e. classrooms), assignments do not have enough historical data for supervised learning. In this paper, we introduce a human-in-the-loop "rubric sampling" approach to tackle the "zero shot" feedback challenge. We are able to provide autonomous feedback for the first students working on an introductory programming assignment with accuracy that substantially outperforms data-hungry algorithms and approaches human level fidelity. Rubric sampling requires minimal teacher effort, can associate feedback with specific parts of a student's solution and can articulate a student's misconceptions in the language of the instructor. Deep learning inference enables rubric sampling to further improve as more assignment specific student data is acquired. We demonstrate our results on a novel dataset, the world's largest programming education platform.
+              </span>
+              <br />
+              <br />
                <span style='font-size: 14px;'><u>Mike Wu</u>, Milan Mosse, Noah Goodman, Chris Piech. <i>AAAI 2019</i>. <a href="https://arxiv.org/abs/1809.01357">(paper)</a> <span style="color: #7b0dff">(oral)</span> <span style="color: #ff00ff">(best student paper)</span></span>
             </p>
           </div>
           <div class="paper">
             <p>
               <b>Multimodal Generative Models for Scalable Weakly Supervised Learning</b><br />
-               <span style='font-size: 14px;'><u>Mike Wu</u>, Noah Goodman. <i>NeurIPS 2018</i>. <a href="https://arxiv.org/abs/1802.05335">(paper)</a></span>
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                Multiple modalities often co-occur when describing natural phenomena. Learning a joint representation of these modalities should yield deeper and more useful representations. Previous generative approaches to multi-modal input either do not learn a joint distribution or require additional computation to handle missing data. Here, we introduce a multimodal variational autoencoder (MVAE) that uses a product-of-experts inference network and a sub-sampled training paradigm to solve the multi-modal inference problem. Notably, our model shares parameters to efficiently learn under any combination of missing modalities. We apply the MVAE on four datasets and match state-of-the-art performance using many fewer parameters. In addition, we show that the MVAE is directly applicable to weakly-supervised learning, and is robust to incomplete supervision. We then consider two case studies, one of learning image transformations---edge detection, colorization, segmentation---as a set of modalities, followed by one of machine translation between two languages. We find appealing results across this range of tasks.
+              </span>
+              <br />
+              <br />
+              <span style='font-size: 14px;'><u>Mike Wu</u>, Noah Goodman. <i>NeurIPS 2018</i>. <a href="https://arxiv.org/abs/1802.05335">(paper)</a></span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Tree Regularization of Deep Models for Interpretability</b><br />
+              <b>Tree Regularization of Deep Models for Interpretability</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                The lack of interpretability remains a key barrier to the adoption of deep models in many applications. In this work, we explicitly regularize deep models so human users might step through the process behind their predictions in little time. Specifically, we train deep time-series models so their class-probability predictions have high accuracy while being closely modeled by decision trees with few nodes. Using intuitive toy examples as well as medical tasks for treating sepsis and HIV, we demonstrate that this new tree regularization yields models that are easier for humans to simulate than simpler L1 or L2 penalties without sacrificing predictive power.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'><u>Mike Wu</u>, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, Finale Doshi-Velez. <i>AAAI 2018</i>. <a href="https://arxiv.org/abs/1711.06178">(paper)</a> <span style="color: #7b0dff">(spotlight)</span></span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Predicting intervention onset in the ICU with switching statespace models</b><br />
+              <b>Predicting intervention onset in the ICU with switching statespace models</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                The impact of many intensive care unit interventions has not been fully quantified, especially in heterogeneous patient populations. We train unsupervised switching state autoregressive models on vital signs from the public MIMIC-III database to capture patient movement between physiological states. We compare our learned states to static demographics and raw vital signs in the prediction of five ICU treatments: ventilation, vasopressor administra tion, and three transfusions. We show that our learned states, when combined with demographics and raw vital signs, improve prediction for most interventions even 4 or 8 hours ahead of onset. Our results are competitive with existing work while using a substantially larger and more diverse cohort of 36,050 patients. While custom classifiers can only target a specific clinical event, our model learns physiological states which can help with many interventions. Our robust patient state representations provide a path towards evidence-driven administration of clinical interventions.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'>Marzyeh Ghassemi, <u>Mike Wu</u>, Michael C. Hughes, Finale Doshi-Velez. <i>CRI 2017</i>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/28815112">(paper)</a> <span style="color: #ff00ff">(best paper nomination)</span></span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Understanding Vassopressor Intervention and Weaning: Risk Prediction in a Public Heterogeneous Clinical Time Series Database</b><br />
+              <b>Understanding Vassopressor Intervention and Weaning: Risk Prediction in a Public Heterogeneous Clinical Time Series Database</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                The widespread adoption of electronic health records allows us to ask evidence-based questions about the need for and benefits of specific clinical interventions in critical-care settings across large populations. We investigated the prediction of vasopressor administration and weaning in the intensive care unit. Vasopressors are commonly used to control hypotension, and changes in timing and dosage can have a large impact on patient outcomes. We considered a cohort of 15,695 intensive care unit patients without orders for reduced care who were alive 30 days post-discharge. A switching-state autoregressive model (SSAM) was trained to predict the multidimensional physiological time series of patients before, during, and after vasopressor administration. The latent states from the SSAM were used as predictors of vasopressor administration and weaning. The unsupervised SSAM features were able to predict patient vasopressor administration and successful patient weaning. Features derived from the SSAM achieved areas under the receiver operating curve of 0.92, 0.88, and 0.71 for predicting ungapped vasopressor administration, gapped vasopressor administration, and vasopressor weaning, respectively. We also demonstrated many cases where our model predicted weaning well in advance of a successful wean. Models that used SSAM features increased performance on both predictive tasks. These improvements may reflect an underlying, and ultimately predictive, latent state detectable from the physiological time series.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'><u>Mike Wu</u>, Marzyeh Ghassemi, Mengling Feng, Leo Anthony Celi, Peter Szolovitz, Finale Doshi-Velez. <i>JAMIA 2016</i>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27707820">(paper)</a></span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Edge-based Crowd Detection from Single Image Datasets</b><br />
+              <b>Edge-based Crowd Detection from Single Image Datasets</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                This paper describes the design of a crowd-based facial detection and recognition system using only optical features, allowing for robustness in tracking characterizations with applications in security and data extraction. Implementation is divided into three parts: packing information regarding a given image into edge pixels, segmentation into object groups, and circular segmentation. Detection is achieved by filtering the circles and characterizing those with features similar to that of a normal face. Preliminary facial recognition is described by matching feature vectors to each "facial region" and matching over subsequence image frames. Algorithms were implemented in MATLAB and testing was performed with a low-resolution video camera. Through a number of trials, results show good detection and tracking abilities given small to medium crowd sizes. Several limitations will be addressed.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'><u>Mike Wu</u>, Madhu Krishnan. <i>IJCSI 2013</i>. <a href="https://ijcsi.org/papers/IJCSI-12-1-1-18-22.pdf">(paper)</a></span>
             </p>
           </div>
           <div class="paper">
             <p>
-              <b>Autonomous Mapping and Navigation through Utilization of Edge-based Optical Flow and Time-to-Collision</b><br />
+              <b>Autonomous Mapping and Navigation through Utilization of Edge-based Optical Flow and Time-to-Collision</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                This paper proposes a cost-effective approach to map and navigate an area with only the means of a single, lowresolution camera on a “smart robot,” avoiding the cost and unreliability of radar/sonar systems. Implementation is divided into three main parts: object detection, autonomous movement, and mapping by spiraling inwards and using A* Pathfinding algorithm. Object detection is obtained by editing Horn-Schunck’s optical flow algorithm to track pixel brightness factors to subsequent frames, producing outward vectors. These vectors are then focused on the objects using Sobel edge detection. Autonomous movement is achieved by finding the focus of expansion from those vectors and calculating time to collision which are then used to maneuver. Algorithms are programmed in MATLAB and implemented with LEGO Mindstorm NXT 2.0 robot for real-time testing with a low-resolution video camera. Through numerous trials and diversity of the situations, validity of results is ensured to autonomously navigate and map a room using solely optical inputs.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'>Madhu Krishnan, <u>Mike Wu</u>, Young Kang, Sarah H. Lee. <i>ARPN 2012</i>. Intel ISEF Semifinalist. <a href="http://www.arpnjournals.com/jeas/research_papers/rp_2012/jeas_1212_836.pdf">(paper)</a></span>
             </p>
         </div>
@@ -158,7 +248,14 @@
           </div>
           <div class="talk">
             <p>
-              <b>Spreadsheet probabilistic programming</b><br />
+              <b>Spreadsheet probabilistic programming</b>
+              <br />
+              <br />
+              <span style='font-size: 12px; color: #606060;'>
+                Spreadsheet workbook contents are simple programs. Because of this, probabilistic programming techniques can be used to perform Bayesian inversion of spreadsheet computations. What is more, existing execution engines in spreadsheet applications such as Microsoft Excel can be made to do this using only built-in functionality. We demonstrate this by developing a native Excel implementation of both a particle Markov Chain Monte Carlo variant and black-box variational inference for spreadsheet probabilistic programming. The resulting engine performs probabilistically coherent inference over spreadsheet computations, notably including spreadsheets that include user-defined black-box functions. Spreadsheet engines that choose to integrate the functionality we describe in this paper will give their users the ability to both easily develop probabilistic models and maintain them over time by including actuals via a simple user-interface mechanism. For spreadsheet end-users this would mean having access to efficient and probabilistically coherent probabilistic modeling and inference for use in all kinds of decision making under uncertainty.
+              </span>
+              <br />
+              <br />
               <span style='font-size: 14px;'>William Smith, <u>Mike Wu</u>, Yura Perov, Frank Wood, Hongseok Yang. <i>PROBPROG 2018</i>. <a href="https://arxiv.org/abs/1606.04216">(paper)</a></span>
             </p>
           </div>
