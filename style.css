@@ -19,3 +19,32 @@ a {
 .talk {
     padding: 0px 0px;
 }
+
+.entry-col-30 {
+    float: left;
+    width: 25%;
+    padding-right:10px;
+}
+.entry-col-70 {
+    float: left;
+    width: 70%;
+    padding-left:10px;
+}
+  
+.entry-col-20 {
+    float: left;
+    width: 15%;
+    padding-right:10px;
+}
+.entry-col-80 {
+    float: left;
+    width: 80%;
+    padding-left:10px;
+}
+
+/* Clear floats after the columns */
+.entry-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
