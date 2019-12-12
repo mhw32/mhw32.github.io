@@ -1,3 +1,11 @@
+p, h1, h2, h3, h4, h5, h6, .p, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: orange !important;
+}
+
 li {list-style-type: none;}
 
 .navbar-custom {
@@ -8,4 +16,42 @@ li {list-style-type: none;}
 
 #navbar-name {
     padding: 0rem 1rem;
+    font-weight: bold;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    font-size: 1rem;
+}
+
+main {
+    background-image: url("../img/background.jpeg");
+    background-size:100% 100%;
+    flex: 1 0 auto;
+    color: white;
+}
+
+.section-about{
+    padding: 5rem 0rem;
+}
+
+.section-about a {
+    color: black !important;
+}
+
+.profile-image {
+    padding: 1rem 0rem;
+}
+
+.mb-0\.75 {
+    margin-bottom: 1.125rem !important;
+}
+
+.hr-strong {
+    opacity: 0.2;
+}
+
+hr {
+    height: 1px;
+    background-color: white;
 }
