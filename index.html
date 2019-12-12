@@ -60,7 +60,7 @@
     </header>
     <main>
       <div class="container">
-        <div class="section-about section-minimize section">
+        <div class="section-about section-minimize section" id="section-small">
           <div class="profile-image">
             <img class="img-thumbnail" src="./profile.jpg" border="0" style='border-radius: 3px;'>
           </div>
@@ -83,7 +83,7 @@
             </p>
           </div>
         </div>
-        <div class="section-about section">
+        <div class="section-about section" id="section-big">
           <div class="row">
             <div class="col-3">
                 <div class="profile-image">
@@ -342,3 +342,22 @@
     </footer>
   </body>
 </html>
+<script>
+  function ProfileResize(eventSize) {
+    if ($(window).width() < eventSize) {
+      $('#section-big').hide();
+      $('#section-small').show();
+    } else {
+      $('#section-big').show();
+      $('#section-small').hide();
+    }
+  }
+  $("document").ready(function(){
+    ProfileResize(750);
+  });
+  $(window).resize(function() {
+    console.log('here');
+    console.log($(window).width());
+    ProfileResize(750);
+  });
+</script>
