@@ -1,0 +1,11 @@
+li {list-style-type: none;}
+
+.navbar-custom {
+    min-height: 100px;
+    font-size: 1rem;
+    padding: 1rem 4rem !important;
+}
+
+#navbar-name {
+    padding: 0rem 1rem;
+}
