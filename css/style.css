@@ -33,8 +33,45 @@ main {
     padding: 7rem 0rem;
 }
 
+.card {
+    color: black !important;
+    border: none !important;
+}
+
+.card .card-header {
+    font-size: 0.8rem;
+    padding: .5rem 1rem;
+}
+
+.card .card-body .card-title {
+    font-size: 1rem;
+}
+
+.card .card-body .card-text {
+    font-size: 0.9rem;
+    color: gray !important;
+    font-weight: normal !important;
+}
+
+.card a {
+    color: white !important;
+}
+
+.card .btn-primary {
+    background-color: gray !important;
+    border-color: gray !important;
+}
+
+.card .btn {
+    font-size: 0.6rem !important;
+}
+
 .section {
     padding: 2rem 0rem;
+}
+
+.section .row {
+    padding-bottom: 2rem;
 }
 
 .section-about{
@@ -53,6 +90,7 @@ main {
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 0.2em; 
+    padding-bottom: 1em;
 }
 
 .img-thumbnail {
