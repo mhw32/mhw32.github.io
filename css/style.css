@@ -64,8 +64,13 @@ main {
     border-color: gray !important;
 }
 
+.card .card-body {
+    padding-bottom: 1rem !important;
+}
+
 .card .btn {
     font-size: 0.6rem !important;
+    margin-bottom: 0.5rem;
 }
 
 .section {
