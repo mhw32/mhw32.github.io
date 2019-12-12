@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 NOV 2019 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 DEC 2019 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,25 +199,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 25.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--68
+Overfull \hbox (12.84001pt too wide) in paragraph at lines 42--46
+\OT1/cmr/m/n/10 rithms), CPSC323 (Sys-tems Pro-gram-ming and Com-puter Arch.), 
+CPSC437 (Databases),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--71
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (8.39284pt too wide) in paragraph at lines 105--106
+Overfull \hbox (8.39284pt too wide) in paragraph at lines 110--111
 []\OT1/cmr/bx/n/10 Mike Wu\OT1/cmr/m/n/10 , Madhu Kr-ish-nan. Edge-based Crowd 
 De-tec-tion from Sin-gle Im-age Datasets.
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 186.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
  4311 strings out of 493014
@@ -226,7 +232,7 @@ Here is how much of TeX's memory you used:
  7873 multiletter control sequences out of 15000+600000
  5067 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,21p,366b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,21p,366b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section.1} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -235,7 +241,7 @@ pdfTeX warning (dest): name{section.1} has been referenced but does not exist
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on wu_cv.pdf (3 pages, 90030 bytes).
+Output written on wu_cv.pdf (3 pages, 90369 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
