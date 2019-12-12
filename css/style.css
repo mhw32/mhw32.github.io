@@ -43,6 +43,10 @@ main {
     padding: 1rem 0rem;
 }
 
+.img-thumbnail {
+    max-height: 150px;
+}
+
 .mb-0\.75 {
     margin-bottom: 1.125rem !important;
 }
