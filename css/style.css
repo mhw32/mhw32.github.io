@@ -1,6 +1,6 @@
 p, h1, h2, h3, h4, h5, h6, .p, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.01em; 
+    letter-spacing: 0.01em;
 }
 
 a {
@@ -36,6 +36,8 @@ main {
 .card {
     color: black !important;
     border: none !important;
+    margin: 1rem 0rem;
+
 }
 
 .card .card-header {
@@ -71,7 +73,7 @@ main {
 }
 
 .section .row {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .section-about{
@@ -89,7 +91,7 @@ main {
 .section-title p {
     text-transform: uppercase;
     font-size: 0.8rem;
-    letter-spacing: 0.2em; 
+    letter-spacing: 0.2em;
     padding-bottom: 1em;
 }
 
