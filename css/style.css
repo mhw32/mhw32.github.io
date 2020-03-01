@@ -4,7 +4,7 @@ p, h1, h2, h3, h4, h5, h6, .p, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 a {
-    color: orange !important;
+    color: #AB387E !important;
 }
 
 li {list-style-type: none;}
@@ -13,6 +13,10 @@ li {list-style-type: none;}
     min-height: 100px;
     font-size: 1rem;
     padding: 1rem 4rem !important;
+}
+
+.nav-link {
+    color: white !important;
 }
 
 #navbar-name {
@@ -26,23 +30,48 @@ li {list-style-type: none;}
 }
 
 main {
+    /*background-image: url("../img/background.jpeg");*/
+    background-color: #f8f9fa;
+    background-size:100% 100%;
+    flex: 1 0 auto;
+    color: black;
+    padding: 3rem 0rem;
+}
+
+header {
     background-image: url("../img/background.jpeg");
     background-size:100% 100%;
     flex: 1 0 auto;
-    color: white;
-    padding: 7rem 0rem;
 }
 
 .card {
     color: black !important;
     border: none !important;
     margin: 1rem 0rem;
-
+    box-shadow: 5px 5px #e8e8e8;
 }
 
 .card .card-header {
     font-size: 0.8rem;
     padding: .5rem 1rem;
+}
+
+.section-papers-preprints .card-header {
+    background-color: #AB387E !important;
+    color: white;
+    border-bottom: 0px !important;
+}
+
+.section-papers-published .card-header {
+    background-color: #F84C34 !important;
+    color: white;
+    border-bottom: 0px !important;
+}
+
+.section-papers-abstract .card-header {
+    background-color: orange !important;
+    color: white;
+    border-bottom: 0px !important;
 }
 
 .card .card-body .card-title {
@@ -85,10 +114,6 @@ main {
     padding-bottom: 2.5rem;
 }
 
-.section-about a {
-    color: black !important;
-}
-
 .profile-image {
     padding: 1rem 0rem;
 }
@@ -118,6 +143,8 @@ main {
 }
 
 hr {
-    height: 1px;
-    background-color: white;
+    height: 4px !important;
+    margin: 15px 0 !important;
+    border: 0 !important;
+    background-color: gray;
 }
