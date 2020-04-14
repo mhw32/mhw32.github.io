@@ -22,11 +22,7 @@ Requested Account Username e.g. wumike
 
 Dan will likely send you an email joining the CCN Slack. This is where cluster admin post information about bugs/broken nodes/updates/etc. **Once you successfully join the slack**, Dan will create an account for you.
 
-Your password will be set to:
-
-```
-hello<username>
-```
+Your password will be sent to you by Dan.
 
 ## Using the Cluster
 
