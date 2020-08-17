@@ -56,6 +56,16 @@ header {
     padding: .5rem 1rem;
 }
 
+.section-recent-news .card-header {
+    background-color: #DB304C !important;
+    color: white;
+    border-bottom: 0px !important;
+}
+
+.section-recent-news li {
+    list-style-type: circle;
+}
+
 .section-papers-preprints .card-header {
     background-color: #AB387E !important;
     color: white;
