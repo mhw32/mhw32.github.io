@@ -16,7 +16,7 @@ li {list-style-type: none;}
 }
 
 .nav-link {
-    color: white !important;
+    color: black !important;
 }
 
 #navbar-name {
@@ -29,6 +29,10 @@ li {list-style-type: none;}
     font-size: 1rem;
 }
 
+footer {
+    border-top: 2px solid #E8E8E8;
+}
+
 main {
     /*background-image: url("../img/background.jpeg");*/
     background-color: #f8f9fa;
@@ -39,9 +43,12 @@ main {
 }
 
 header {
-    background-image: url("../img/background.jpeg");
+    /*background-image: url("../img/background.jpeg");*/
+    background-color: #f8f9fa;
     background-size:100% 100%;
     flex: 1 0 auto;
+    border-bottom: 2px solid #E8E8E8;
+    padding-bottom: 5px;
 }
 
 .card {
@@ -57,9 +64,10 @@ header {
 }
 
 .section-recent-news .card-header {
-    background-color: #DB304C !important;
-    color: white;
+    background-color: #E8E8E8 !important;
+    /*color: white;*/
     border-bottom: 0px !important;
+    font-size: 18px;
 }
 
 .section-recent-news li {
@@ -121,7 +129,11 @@ header {
 }
 
 .section-about{
-    padding-bottom: 2.5rem;
+    padding-bottom: 0rem;
+}
+
+.section-about-description {
+    padding: 1rem;
 }
 
 .profile-image {
@@ -141,7 +153,7 @@ header {
 }
 
 .img-thumbnail {
-    max-height: 150px;
+    max-height: 250px;
 }
 
 .mb-0\.75 {
