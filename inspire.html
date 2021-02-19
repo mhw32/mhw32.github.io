@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="keywords" content="Mike Wu, Hongfei, Mike, Wu, Yale, Invrea, machine learning, AI">
+    <meta name="author" content="Mike Wu">
+    <meta name="description" content="I'm Mike Wu!">
+
+    <!-- css inclusions. -->
+    <link rel='stylesheet' href='css/style.css' />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="google-site-verification" content="gqABhyTbrCW1CtRqLqXhK3j909rFVxeYsQjeY5fTp74" />
+    <!-- favicon link. -->
+    <link rel='icon' href='favicon.png' />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- client-side javascript. -->
+    <title> Mike Wu | Home </title>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88659652-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="d-flex flex-column">
+    <main>
+      <div style='margin: 100px auto; text-align: center'>
+        <div>
+          <h3 style='font-size: 30px'><u><b>Inspire VII</b></u> - <i>Anniversary Edition</i></h3>
+        </div>
+        <br />
+        <div>
+          <img src="./img/inspire/final.png" width="60%"class="d-inline-block align-top" alt="">
+        </div>
+        <br />
+        <br />
+        <div style='text-align: left; margin: 0 20%'>
+          <p style='font-size: 20px;'>
+            To Connie,
+            <br />
+            <br />
+            For our seventh anniversary, I wanted to make art that captures what I think is important in our relationship, and the value of having each other in pursuing our personal and professional dreams.
+            I decided to make something we could wear as it felt more tangible than an illustration alone. I wanted it to represent something meaningful but also be something that we would want to proudly show.
+            <br />
+            <br />
+            The <i>Inspire</i> VII reflects our drive, motivation, and passion not as individuals, but for supporting and nurturing each other. So much of who I am today can be attributed to your care, your encouragement, and your guidance. Repeatedly, you have effortlessly played both the roles of teacher and crutch. As we continue to take steps towards our lofty dreams to make impact and enact change, this shoe is a physical reminder of how far we have come in seven years, and how much more there to walk in the path ahead. <i>But a path we walk together</i>.
+            <br />
+            <br />
+            With love,
+            <br />
+            <br />
+            Mike
+          </p>
+          <br />
+        </div>
+        <br />
+        <div style='text-align: left; margin: 0 20%'>
+          <div style='text-align: left'>
+            <img src="./img/inspire/step1.png"
+            width="49%"class="d-inline-block align-top" alt="">
+            <img src="./img/inspire/step2.png" width="49%"class="d-inline-block align-top" alt="">
+            <br/><br/>
+            <img src="./img/inspire/step3.png" width="49%"class="d-inline-block align-top" alt="">
+            <img src="./img/inspire/step4.png" width="49%"class="d-inline-block align-top" alt="">
+            <br/><br/>
+            <img src="./img/inspire/step5.png" width="49%"class="d-inline-block align-top" alt="">
+            <img src="./img/inspire/step6.png" width="49%"class="d-inline-block align-top" alt="">
+            <br/><br/>
+            <img src="./img/inspire/step7.png" width="49%"class="d-inline-block align-top" alt="">
+            <img src="./img/inspire/step8.png" width="49%"class="d-inline-block align-top" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<script>
+  function ProfileResize(eventSize) {
+    if ($(window).width() < eventSize) {
+      $('#section-big').hide();
+      $('#section-small').show();
+    } else {
+      $('#section-big').show();
+      $('#section-small').hide();
+    }
+  }
+  $("document").ready(function(){
+    ProfileResize(750);
+  });
+  $(window).resize(function() {
+    console.log('here');
+    console.log($(window).width());
+    ProfileResize(750);
+  });
+</script>
