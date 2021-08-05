@@ -1,6 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1546666678 "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" "wu_cv.pdf" "wu_cv" 1546666678
-  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" 1546666677 8195 f7ee8b80d288c0e1fc4151f3a9143abe ""
+["pdflatex"] 1628183670 "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf" "wu_cv" 1628183671
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.aux" 1544288568 738 ec4b2961b620004d9577185228f66d4a ""
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" 1628183670 13817 50723b38a7b7ee1509162ce0f1197411 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -36,7 +37,9 @@
   "res.cls" 1544289069 25064 12b8a9e558b35c7e7f7f5fb39bebb9a2 ""
   "wu_cv.aux" 1544288568 738 ec4b2961b620004d9577185228f66d4a ""
   "wu_cv.out" 1544288568 38 27524dbaad7beea65d6e954a68022e25 ""
-  "wu_cv.tex" 1546666677 8195 f7ee8b80d288c0e1fc4151f3a9143abe ""
+  "wu_cv.tex" 1628183670 13817 50723b38a7b7ee1509162ce0f1197411 ""
   (generated)
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.log"
   "wu_cv.log"
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf"
   "wu_cv.pdf"
