@@ -43,10 +43,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.out
-INPUT /Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.out
-INPUT /Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.out
-INPUT /Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.out
 OUTPUT /Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm

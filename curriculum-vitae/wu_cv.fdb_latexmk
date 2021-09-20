@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1628183670 "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf" "wu_cv" 1628183700
-  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.aux" 1544288568 738 ec4b2961b620004d9577185228f66d4a ""
-  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" 1628183670 13817 50723b38a7b7ee1509162ce0f1197411 ""
+["pdflatex"] 1632100960 "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf" "wu_cv" 1632100961
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.aux" 1632100920 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.tex" 1632100959 14144 713ea59dfaf857f8f00a45aedf65892b ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -35,11 +35,10 @@
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
   "res.cls" 1544289069 25064 12b8a9e558b35c7e7f7f5fb39bebb9a2 ""
-  "wu_cv.aux" 1544288568 738 ec4b2961b620004d9577185228f66d4a ""
-  "wu_cv.out" 1544288568 38 27524dbaad7beea65d6e954a68022e25 ""
-  "wu_cv.tex" 1628183670 13817 50723b38a7b7ee1509162ce0f1197411 ""
+  "wu_cv.aux" 1632100920 8 a94a2480d3289e625eea47cd1b285758 ""
+  "wu_cv.tex" 1632100959 14144 713ea59dfaf857f8f00a45aedf65892b ""
   (generated)
-  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf"
   "wu_cv.pdf"
   "wu_cv.log"
   "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.log"
+  "/Users/mikewu/Desktop/Projects/mhw32.github.io/curriculum-vitae/wu_cv.pdf"
