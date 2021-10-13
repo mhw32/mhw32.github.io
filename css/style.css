@@ -9,6 +9,10 @@ a {
 
 li {list-style-type: none;}
 
+.container {
+  max-width: 800px !important;
+}
+
 .section-papers li {list-style-type: disc;}
 
 .navbar-custom {
