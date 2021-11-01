@@ -13,7 +13,7 @@ li {list-style-type: none;}
   max-width: 800px !important;
 }
 
-.section-papers li {list-style-type: disc;}
+.section-papers li {list-style-type: none;}
 
 .navbar-custom {
     min-height: 100px;
@@ -80,6 +80,21 @@ header {
     list-style-type: circle;
 }
 
+.section-papers li {
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+}
+
+.section-papers ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 8px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #743ad5 0%, #d53a9d 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #743ad5 0%, #d53a9d 100%);
+    border-image: linear-gradient(to bottom, #743ad5 0%, #d53a9d 100%);
+    border-image-slice: 1;
+}
+
 .section-papers-preprints .card-header {
     background-color: #AB387E !important;
     color: white;
@@ -140,6 +155,9 @@ header {
 
 .section-about-description {
     padding: 1rem;
+}
+.section-about-description p {
+    letter-spacing: 0.05em !important;
 }
 
 .profile-image {
