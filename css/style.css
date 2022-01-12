@@ -11,6 +11,7 @@ li {list-style-type: none;}
 
 .container {
   max-width: 800px !important;
+  padding-bottom: 20px;
 }
 
 .section-papers li {list-style-type: none;}
@@ -39,13 +40,16 @@ footer {
     border-top: 2px solid #E8E8E8;
 }
 
-main {
+#wrapper {
     /*background-image: url("../img/background.jpeg");*/
     background-color: #f8f9fa;
-    background-size:100% 100%;
-    flex: 1 0 auto;
+    background-image: url('../img/background.png');
+    background-repeat: repeat;
+    background-size: 50%;
+    /* background-size:100% 100%; */
+    /* flex: 1 0 auto;
     color: black;
-    padding: 3rem 0rem;
+    padding: 3rem 0rem; */
 }
 
 header {
