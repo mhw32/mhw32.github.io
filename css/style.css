@@ -12,7 +12,7 @@ a {
     color: #BF5B5B !important;
 }
 
-li {list-style-type: none;}
+nav li {list-style-type: none;}
 
 .container {
   max-width: 800px !important;
@@ -174,8 +174,11 @@ header {
 }
 
 .section-minimize {
-    text-align: center;
     display: none;
+}
+
+.info-minimize {
+    text-align: center;
 }
 
 .section-title p {
