@@ -18,7 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="gqABhyTbrCW1CtRqLqXhK3j909rFVxeYsQjeY5fTp74" />
     <!-- favicon link. -->
-    <link rel='icon' href='favicon.png' />
+    <link rel='icon' href='favicon2.png' />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- client-side javascript. -->
     <title> Mike Wu | Home </title>
@@ -31,11 +31,22 @@
     gtag('js', new Date());
     gtag('config', 'G-D5520DGEK2');
   </script>
+  <style>
+    .fade-image {
+        border-radius: 10%;
+        cursor: pointer;
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .fade-image.fade {
+        opacity: 0;
+    }
+  </style>
   <body class="d-flex flex-column new">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <a class="navbar-brand" href="./index.html">
-          <img src="./img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <img src="./img/favicon2.png" width="30" height="30" class="d-inline-block align-top" alt="">
           <span id="navbar-name" style='color: black'>Hi, I'm Mike!</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +60,13 @@
           <div class="section-about section-minimize section" id="section-small">
             <div class="info-minimize">
               <div class="profile-image">
-                <img class="img-thumbnail" src="./img/profile.jpeg" border="0" style='border-radius: 10%;'>
+                <img 
+                  class="img-thumbnail fade-image" 
+                  src="./img/profile2.png" 
+                  border="0" 
+                  style='border-radius: 10%; cursor: pointer;'
+                  onclick="toggleImage(this)"
+                >
               </div>
               <p style='font-size: 20px;''>
                 <b>Mike Wu</b><br />
@@ -121,7 +138,13 @@
             <div class="row">
               <div class="col-4" style='text-align: center;'>
                 <div class="profile-image">
-                  <img class="img-thumbnail" src="./img/profile.jpeg" border="0" style='border-radius: 10%;'>
+                  <img 
+                    class="img-thumbnail fade-image" 
+                    src="./img/profile2.png" 
+                    border="0" 
+                    style='border-radius: 10%; cursor: pointer;'
+                    onclick="toggleImage(this)"
+                  >
                 </div>
                 <div style='font-size: 20px'>
                   <p>
@@ -218,8 +241,17 @@
     ProfileResize(750);
   });
   $(window).resize(function() {
-    console.log('here');
-    console.log($(window).width());
     ProfileResize(750);
   });
+  function toggleImage(element) {
+    element.classList.add('fade');
+    setTimeout(() => {
+      if (element.src.includes('profile2.png')) {
+          element.src = './img/profile.jpeg';
+      } else {
+          element.src = './img/profile2.png';
+      }
+      element.classList.remove('fade');
+    }, 300);
+  }
 </script>
